@@ -6,6 +6,15 @@ Collates code from [FeifeiDeakin/MotionDataLogging: MotionDataLogging](https://g
 Licensed under GNU LGPL as necessitated by [DFRobot](https://www.dfrobot.com/) (see [this page](https://www.gnu.org/licenses/) for more info).
 
 ## Usage:
-It is very simple to use and implement: If you purchase an arduino board, all you have to do is just [download](https://www.arduino.cc/en/main/software) the Arduino integrated development environment (IDE), clone or release-download the code, import it into the Arduino IDE as a new sketch, connect the Arduino board over USB, press Control+R to verify and compile the code, then finally press Control+U to transfer / upload the compiled program to the board.  Should work straight out of the box.
+It is relatively simple to use.  If you purchase an arduino board, all you have to do is just:
+* [download](https://www.arduino.cc/en/main/software) the Arduino integrated development environment (IDE) for free.
+* Clone or release-download the code.
+* Import it into the Arduino IDE as a new sketch.
+* Use either the [Arduino IDE Library Manager](https://www.arduino.cc/en/guide/libraries) or manually install the following two libraries:
+  * The [Adafruit](https://www.adafruit.com/) [Common Sensor Library](https://github.com/adafruit/Adafruit_Sensor); and
+  * The Adafruit [Real-time Clock Library (RTCLib)](https://github.com/adafruit/RTClib).
+* Connect the Arduino board over USB and make sure that it is registered / assigned to the right COM ports in IDE > tools menu > COM Ports - possibly turn bluetooth off as well.
+* Press Control+R to verify and compile the code.
+* Finally press Control+U to transfer / upload the compiled program to the board.  Should start working after that - check the upload out and serial moniter.
 
-Use at your own risk! :) Though you can't and shouldn't go wrong with this one.
+If you are allergic to graphical interfaces, or are sight-impaired and / or do not have the [Java Access Bridge (JAB)](https://docs.oracle.com/javase/accessbridge/2.0.2/introduction.htm) &ndash; which is quite out-of-date anyway and will probably become increasingly unusable over the years &ndash; then you can always use the [Arduino-CLI](https://www.arduino.cc/pro/cli), the Arduino command-line interface (CLI).  This simplifies the process even more, if you are used to text-based computer interaction.  Also, NVDA is the only screen-reader that reliably works with the IDE, whereas JAWS crashes nearly every single time for some reason.
