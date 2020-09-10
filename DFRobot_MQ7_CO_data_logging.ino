@@ -7,7 +7,7 @@
       https://learn.adafruit.com/adafruit-data-logger-shield/using-the-real-time-clock-3
       https://github.com/adafruit/Light-and-Temp-logger
    Original Author (from motion data logging): Niroshinie Fernando 
-   Author (MQ7 Carbon Monoxide data logging): Nathaniel Schmidt <schmidty@gmail.com>
+   Author (MQ7 Carbon Monoxide data logging): Nathaniel Schmidt <schmidty2244@gmail.com>
    Modified on 27/08/2020
 */
 
